@@ -14,8 +14,6 @@ python manage.py migrate
 # echo "-------------------"
 # gunicorn app_project.wsgi:application --bind 0.0.0.0:8004 --worker-class=gthread --threads=9 --timeout 3600
 # echo "-------------------"
-
-
 # !/bin/bash
 
 echo "Create Migrations"
